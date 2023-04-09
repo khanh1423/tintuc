@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <!-- <section class="top-header">
+            <div class="slider">
+                <img class="mySlides" src="./image/1.jpg" style="width:100%">
+                <img class="mySlides" src="./image/2.png" style="width:100%">
+                <img class="mySlides" src="./image/3.jpg" style="width:100%">
+                <img class="mySlides" src="./image/4.jpg" style="width:100%">
+    
+                <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </section> -->
+
+        <section class="main-header-desktop row" id="myHeader">
+            <div class="main-logo row-3">
+                <a href="./index.html"><img src="./image/6.png" alt=""></a>
+            </div>
+
+            <div class="nav row-9">
+                <ul>
+                    <li>
+                        <a href="./index.html">Trang chủ</a>
+                    </li>
+                    <li class="category">
+                        <a class="category-list" href="./service-page.html">
+                            Dịch vụ
+                        </a>
+
+                        <div class="chil-category">
+                            <a href="#">vận chuyển hàng số lượng lớn, theo hợp đồng</a>
+                            <a href="#">Cho thuê kho bãi</a>
+                            <a href="#" class="chil-category-end">Vận chuyển vật liệu xây dựng</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">bảng giá</a>
+                    </li>
+                    <li>
+                        <a href="./news-page.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="./contact-page.html">Liên hệ</a>
+                    </li>
+                    <li class="search-box">
+                        <i class='bx bx-search'></i>
+
+                        <div class="search-box-popup" id="search-box-popup">
+                            <div class="search-main">
+                                <input type="search" id="search-box" class="search-box-header">
+                                <i class='bx bx-search'></i>
+                            </div>
+                            
+                            <div class="item-search">
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải dịch vụ vận tải dịch vụ vận tải dịch vụ vận
+                                                tải dịch vụ vận tải dịch vụ vận tải dịch vụ vận tải dịch vụ vận
+                                                tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <h3 class="all-item"><a href="#">Xem tất cả</a></h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="contact-now">
+                            <a href="tel:0779803198">+84 77 9803 198</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="main-header-mobile">
+            <div class="slider-menu">
+                <i class='bx bxs-x-circle'></i>
+
+                <ul>
+                    <li class="search-item">
+                        <input type="search" placeholder="Tìm kiếm...">
+                        <i class='bx bx-search'></i>
+                    </li>
+                    <li>
+                        <a href="./index.html">
+                            <span>Trang chủ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./contact-page.html">
+                            <span>Bảng giá</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./news-page.html">
+                            <span>tin tức</span>
+                        </a>
+                    </li>
+                    <li>     
+                        <div class="icon_link">
+                            <a href="#">
+                                <span class="link_name">Dịch vụ</span>
+                            </a>
+                            <i class='bx bx-chevron-down arrow'></i>
+                        </div>
+
+                        <ul class="sub_menu">
+                            <li><a href="#">Web Design Web Design </a></li>
+                            <li><a href="#">Card Design</a></li>
+                            <li><a href="#">Login Form</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./contact-page.html">
+                            <span>liên hệ</span>
+                        </a>
+                    </li>
+                </ul>
+                <span class="close"></span>
+
+            </div>
+            
+            <div class="main-logo-mobile">
+                <div class="icon-slider">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="img">
+                    <a href="./index.html">
+                        <img src="./image/logo-mobi.png" alt="">
+                    </a>
+                </div>
+
+                <div class="none"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page">
+        <section class="page-services">
+            <div class="page-content">
+                <h3 class="title-services">
+                    <span>Thông tin tìm kiếm: Thinh Dep Trai</span>
+                </h3>
+            </div>
+
+            <div class="content-post-services"  id="paginated-list" data-current-page="1" aria-live="polite">
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="post-services">
+                    <a href="./content-page.html">
+                        <img class="image-post-services" src="./image/van-tai.jpg" alt="">
+
+                        <h3 class="title-post-services"><span>Dịch vụ vận chuyển nhàDịch vụ vận chuyển nhàDịch vụ vận chuyển
+                                nhà</span></h3>
+    
+                        <p class="shot-description-services">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                            anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                            to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </a>
+                </div>
+
+                <nav class="pagination-container">
+                    <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
+                        &lt;
+                    </button>
+                
+                    <div id="pagination-numbers">
+                
+                    </div>
+                
+                    <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
+                        &gt;
+                    </button>
+                </nav>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer">
+        <section class="footer-line1">
+            <div class="footer-infor-company">
+                <div class="name-company">
+                    <h4 class="name-company-title">
+                        <a href="./index.html"><span>CÔNG TY TM&DV VẬN TẢI THỊNH PHÁT</span></a>
+                    </h4>
+
+                    <div class="description-company">
+                        <p><strong>Địa chỉ:</strong> F3/31, tổ 8, ấp 6c, Đường liên ấp 6 - 6c, xã Vĩnh Lộc A, huyện Bình
+                            Chánh, TP.Hồ Chí Minh<br>
+                            <strong>Số điện thoại:</strong> <a href="tel:0705100729">0705100729</a><br>
+                            <strong>Email:</strong> <a
+                                href="mail:thinhphatvantai@gmail.com">thinhphatvantai@gmail.com</a><br>
+                            <strong>MST:</strong> <a href="#">0123456789</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="list-service">
+                    <h3 class="title-list-service">
+                        <span>Giới thiệu & Dịch vụ</span>
+                    </h3>
+                    <ul>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li class="chil-list-end"><a href="#">Giới Thiệu</a></li>
+                    </ul>
+                </div>
+
+                <div class="list-infor">
+                    <h3 class="title-list-infor">
+                        <span>Chính sách</span>
+                    </h3>
+                    <ul>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li class="chil-list-end"><a href="#">Giới Thiệu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="copyright">
+        <section class="footer-line2">
+            <div class="copyright-infor">
+                <p>Copyright 2023 © <a href="#" class="link-copyright"><strong>CÔNG TY TM&DV VẬN TẢI THỊNH
+                            PHÁT</strong></a></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./styles/js/script.js"></script>
+    <script src="./styles/js/pagination.js"></script>
+</body>
+
+</html>

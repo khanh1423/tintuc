@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+    height: 100vh;
+    background-color: var(--body-color);
+
+    &.dark{
+        --body-color: #18191a;
+        --sidebar-color: #242526;
+        --sidebar-item-color: #484a4c;
+        --sidebar-item-color-hover: #5f5f5f;
+        --sidebar-chil-item-color-hover: #2c2c2c;
+        --border: 1px solid #484a4c;
+        --hr-border: 1px solid #484a4c;
+        --primary-color: #3a3b3c;
+        --primary-color-light: #f3f3f3;
+        --toggle-color: #fff;
+        --text-color: #ccc;
+
+        .sidebar-1{
+            transition: var(--tran-03);
+        }
+        
+        .switch::before {
+            left: 26px !important;
+            transition: var(--tran-05);
+        }
+
+        .moon-sun{
+            i.sun{
+                opacity: 1 !important;
+                transition: var(--tran-03);
+            }
+
+            i.moon{
+                opacity: 0;
+            }
+        }
+    }
+}

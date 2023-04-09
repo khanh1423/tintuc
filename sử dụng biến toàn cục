@@ -1,0 +1,4 @@
+- Tạo thư mục view trong app, tạo thư mục composers
+- Tạo Provider sử dụng câu lệnh php artisan make:provider "ViewServiceProvider"
+- Khai báo file Providers vừa tạo vào config -> app  "App\Providers\ViewServiceProvider::class,"
+- Tạo Composers trong App/View/ -> khai báo trong ViewServiceProvider trong Provider cùng với view mà muốn trỏ đến để sử dụng biến

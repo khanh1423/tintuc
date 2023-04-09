@@ -1,0 +1,47 @@
+@import 'header';
+@import 'body';
+@import 'footer';
+@import 'page';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    /* ==== color ==== */
+    --body-color: #e4e9f7;
+    --sidebar-color: #f3f3f3;
+    --sidebar-item-color: #fff;
+    --sidebar-item-color-hover: #ffffff80;
+    --sidebar-chil-item-color-hover: #92c3e5;
+    --border: 1px solid #fff;
+    --hr-border: 1px solid #ffffff80;
+    --primary-color: #008000;
+    --primary-color-light: #f3f3f3;
+    --toggle-color: #ddd;
+    --text-color: #000;
+
+    /* ==== transition ==== */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+
+.container{
+    display: flex;
+
+    @import 'sidebar-1';
+
+    @import 'sidebar-2';
+
+    .sidebar-1 ~ .sidebar-2{
+        left: 300px;
+        width: calc(100% - 300px);
+    }
+}
+
+
+

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <!-- <section class="top-header">
+            <div class="slider">
+                <img class="mySlides" src="./image/1.jpg" style="width:100%">
+                <img class="mySlides" src="./image/2.png" style="width:100%">
+                <img class="mySlides" src="./image/3.jpg" style="width:100%">
+                <img class="mySlides" src="./image/4.jpg" style="width:100%">
+    
+                <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </section> -->
+
+        <section class="main-header-desktop row" id="myHeader">
+            <div class="main-logo row-3">
+                <a href="./index.html"><img src="./image/6.png" alt=""></a>
+            </div>
+
+            <div class="nav row-9">
+                <ul>
+                    <li>
+                        <a href="./index.html">Trang chủ</a>
+                    </li>
+                    <li class="category">
+                        <a class="category-list" href="./service-page.html">
+                            Dịch vụ
+                        </a>
+
+                        <div class="chil-category">
+                            <a href="#">vận chuyển hàng số lượng lớn, theo hợp đồng</a>
+                            <a href="#">Cho thuê kho bãi</a>
+                            <a href="#" class="chil-category-end">Vận chuyển vật liệu xây dựng</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">bảng giá</a>
+                    </li>
+                    <li>
+                        <a href="./news-page.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="./contact-page.html">Liên hệ</a>
+                    </li>
+                    <li class="search-box">
+                        <i class='bx bx-search'></i>
+
+                        <div class="search-box-popup" id="search-box-popup">
+                            <div class="search-main">
+                                <input type="search" id="search-box" class="search-box-header">
+                                <i class='bx bx-search'></i>
+                            </div>
+                            
+                            <div class="item-search">
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải dịch vụ vận tải dịch vụ vận tải dịch vụ vận
+                                                tải dịch vụ vận tải dịch vụ vận tải dịch vụ vận tải dịch vụ vận
+                                                tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="./image/1.jpg" alt="">
+                                        <h3 class="titile-item">
+                                            <span href="#">dịch vụ vận tải</span>
+                                        </h3>
+                                    </a>
+                                </div>
+
+                                <h3 class="all-item"><a href="#">Xem tất cả</a></h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="contact-now">
+                            <a href="tel:0779803198">+84 77 9803 198</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="main-header-mobile">
+            <div class="slider-menu">
+                <i class='bx bxs-x-circle'></i>
+
+                <ul>
+                    <li class="search-item">
+                        <input type="search" placeholder="Tìm kiếm...">
+                        <i class='bx bx-search'></i>
+                    </li>
+                    <li>
+                        <a href="./index.html">
+                            <span>Trang chủ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./contact-page.html">
+                            <span>Bảng giá</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./news-page.html">
+                            <span>tin tức</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="icon_link">
+                            <a href="#">
+                                <span class="link_name">Dịch vụ</span>
+                            </a>
+                            <i class='bx bx-chevron-down arrow'></i>
+                        </div>
+
+                        <ul class="sub_menu">
+                            <li><a href="#">Web Design Web Design </a></li>
+                            <li><a href="#">Card Design</a></li>
+                            <li><a href="#">Login Form</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./contact-page.html">
+                            <span>liên hệ</span>
+                        </a>
+                    </li>
+                </ul>
+                <span class="close"></span>
+            </div>
+
+            <div class="main-logo-mobile">
+                <div class="icon-slider">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="img">
+                    <a href="./index.html">
+                        <img src="./image/logo-mobi.png" alt="">
+                    </a>
+                </div>
+
+                <div class="none"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page">
+        <section class="content-page">
+            <div class="siderbar-1">
+                <div class="content">
+                    <div class="top-content-post width_common">
+                        <span class="breadcrumb"><a href="./news-page.html">dịch vụ</a></span>
+                        <span class="date">15/02/2023 | 8:17</span>
+                    </div>
+
+                    <div class="main-title">
+                        <h3 class="title">
+                            <span>Chính phủ dự kiến có chính sách thí điểm phát triển nhà ở xã hội</span>
+                        </h3>
+                    </div>
+
+                    <div class="main-content">
+                        <p class="normal">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                            recently with
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                            Why do we use it?
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when
+                            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                            distribution
+                            of letters, as opposed to using 'Content here, content here', making it look like readable
+                            English. Many
+                            desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+                            text, and a
+                            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                            versions have
+                            evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                            like).
+
+
+                            Where does it come from?
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical
+                            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                            professor at
+                            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                            consectetur, from a
+                            Lorem Ipsum passage, and going through the cites of the word in classical literature,
+                            discovered the
+                            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+                            Bonorum et
+                            Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a
+                            treatise on the
+                            theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem
+                            ipsum dolor
+                            sit amet..", comes from a line in section 1.10.32.
+
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                            interested.
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+                            reproduced in their
+                            exact original form, accompanied by English versions from the 1914 translation by H.
+                            Rackham.
+
+                            Where can I get some?
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                            isn't anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
+                            tend to repeat
+                            predefined chunks as necessary, making this the first true generator on the Internet. It
+                            uses a
+                            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                            generate
+                            Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                            repetition,
+                            injected humour, or non-characteristic words etc.
+                        </p>
+                    </div>
+
+                    <div class="footer-content">
+                        <div class="tag">
+                            <span>Tags: <a href="./search-page.html">tintuc</a>, <a
+                                    href="./search-page.html">dichvu</a>, <a href="./search-page.html">vantai</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="siderbar-2">
+                <div class="more-news">
+                    <h3 class="title"><a href="./service-page.html">Xem thêm</a></h3>
+                </div>
+
+                <div class="news-post">
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển Dịch vụ vận
+                                        chuyển Dịch vụ vận chuyển Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="post">
+                        <a href="./content-page.html">
+                            <img src="./image/van-tai.jpg" alt="" class="news-post">
+                            <div class="card-content">
+                                <h3 class="title-post"><a href="./content-page.html">Dịch vụ vận chuyển</a></h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <div class="footer">
+        <section class="footer-line1">
+            <div class="footer-infor-company">
+                <div class="name-company">
+                    <h4 class="name-company-title">
+                        <a href="./index.html"><span>CÔNG TY TM&DV VẬN TẢI THỊNH PHÁT</span></a>
+                    </h4>
+
+                    <div class="description-company">
+                        <p><strong>Địa chỉ:</strong> F3/31, tổ 8, ấp 6c, Đường liên ấp 6 - 6c, xã Vĩnh Lộc A, huyện Bình
+                            Chánh, TP.Hồ Chí Minh<br>
+                            <strong>Số điện thoại:</strong> <a href="tel:0705100729">0705100729</a><br>
+                            <strong>Email:</strong> <a
+                                href="mail:thinhphatvantai@gmail.com">thinhphatvantai@gmail.com</a><br>
+                            <strong>MST:</strong> <a href="#">0123456789</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="list-service">
+                    <h3 class="title-list-service">
+                        <span>Giới thiệu & Dịch vụ</span>
+                    </h3>
+                    <ul>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li class="chil-list-end"><a href="#">Giới Thiệu</a></li>
+                    </ul>
+                </div>
+
+                <div class="list-infor">
+                    <h3 class="title-list-infor">
+                        <span>Chính sách</span>
+                    </h3>
+                    <ul>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li class="chil-list-end"><a href="#">Giới Thiệu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="copyright">
+        <section class="footer-line2">
+            <div class="copyright-infor">
+                <p>Copyright 2023 © <a href="#" class="link-copyright"><strong>CÔNG TY TM&DV VẬN TẢI THỊNH
+                            PHÁT</strong></a></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./styles/js/script.js"></script>
+</body>
+
+</html>
